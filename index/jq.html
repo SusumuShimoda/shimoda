@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jquery</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+<body>
+  <h1 id="header1">Jquery</h1>
+  <p class="section">Jqueryではを<a href="https://onmywayexplore.com">HTML/CSS</a>簡単に操作できます
+  </p>
+  <ul>
+    <li>download</li>
+    <li>API</li>
+    <li>Blog</li>
+  </ul>
+
+  <script>
+    $(function(){
+      $('.section').css({"color":"blue","font-size":"30px"
+      
+      });
+      $('#header1').css('color','green');
+      $('li:first').css('color','red');
+    })
+  </script>
+</body>
+</html>

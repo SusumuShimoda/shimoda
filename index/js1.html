@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <!-- 取り出し -->
+  <!-- <div id='first'>１個目</div>
+  <div id='second'>２個目</div>
+  <div id='third'>３個目</div> -->
+
+  <!-- ボタン -->
+  <!-- <button id='btn'>ボタン</button> -->
+
+  <!-- 名前の書き出し -->
+  <!-- <h1>please fill out your name</h1>
+  <input type="text" id='name'>
+  <button id='btn'>complete</button>
+  <div id='disp-name'></div> -->
+
+  <!-- カウンターアプリ -->
+    <!-- <h1>Counter</h1>
+    <div id='disp-count'></div>
+    <button id='down'>countdown</button>
+    <button id='up'>countup</button> -->
+
+    <!-- 配列 -->
+      <!-- <div id='disp'></div> -->
+
+    <!-- おみくじ       -->
+      <h1>おみくじ</h1>
+      <button id='btn'>おみくじスタート</button>
+
+      <div id='disp'></div>
+<script>
+  //変数
+  // var a=3;
+  // var b=5;
+  // document.write("3 + 5 は"+ (a + b)+ "です");
+
+  //関数
+  // tashizan(2,3);
+  // function tashizan(num1,num2){
+  //   var result =num1+num2
+  //   document.write(result);
+  
+  //取り出し
+  // document.getElementById('first').innerHTML='書き換えました';
+
+  //イベント click,mouseover
+  // var btn=document.getElementById('btn');
+  // btn.addEventListener('click',function(){
+  //   alert('こんにちは')
+  // }); 
+
+  // 名前の書き出し
+  // var btn=document.getElementById('btn');
+  // btn.addEventListener('click',function(){
+  //   var name=document.getElementById('name').value;
+  //   document.getElementById('disp-name').innerHTML=name;
+  // })
+
+  // カウンターアプリ
+    // var disp_count=document.getElementById('disp-count');
+    // var up=document.getElementById('up');
+    // var down=document.getElementById('down');
+    // var count=0;
+
+    // up.addEventListener('click',function(){
+    //   count += 1;
+    //   disp_count.innerHTML=count;
+    // })
+    // down.addEventListener('click',function(){
+    //   count -= 1;
+    //   disp_count.innerHTML=count;
+    // })
+
+    //配列
+      // var students=['吉田','田所','田中','加藤']
+      // students.push('安川');
+      // document.getElementById('disp').innerHTML=students[4];
+
+    // ループ
+    // for(i=0;i<100; i++){
+    //   document.write('こんにちは');
+    // }
+    // var students=['吉田','田所','田中','山田']
+    // for(i=0;i<students.length;i++){
+    //   document.write(students[i]);
+    // }
+
+    //if文
+      // var num1=10;
+      // var num2=10;
+      // if(num1>num2){
+      //   alert('yes')
+      // }else if(num1==num2){
+      //   alert('same')
+      // }else{
+      //   alert('no')
+      // }
+
+      // おみくじ
+      var omikuji_items=['大吉','中吉','小吉','凶'];
+      var btn=document.getElementById('btn');
+      var disp=document.getElementById('disp');
+      var num=0;
+
+      btn.addEventListener('click',function(){
+        var num=Math.floor(Math.random()*omikuji_items.length);
+        var result=omikuji_items[num];
+        disp.innerHTML=result;
+
+        if(result=='大吉'){
+          alert('おめでとう');
+        }else if(result=='凶'){
+          alert('きにするな');
+        }else{
+          alert('まあまあ');
+        }
+      })
+</script>
+
+</body>
+</html>
