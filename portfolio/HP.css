@@ -1,0 +1,166 @@
+body{
+  max-width: 800px;
+  min-width: 240px;
+  margin: auto;
+background-color: ivory;
+}
+.whole{
+  /* background-image: url(A174EB32-5166-4E6F-822A-DB84575FCE6E.jpg);
+  /* position: absolute; */
+  /* top: 0;
+  left: 0;
+  opacity: 0.5; */ */
+
+    /*位置の設定　- 上下中央寄せ*/
+   
+}
+img{
+width: 250px;
+height: auto; 
+}
+header{
+  background-image: url(IMG_5615.JPG);
+  height: 450px;
+  background-size: cover;
+  text-align: center;
+  position: relative;
+}
+h1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+  color: white;
+  text-shadow: 1px 2px 3px black;
+  font-size: 35px;
+}
+header img{
+  width: 100%;
+}
+.navi{
+  background-color: floralwhite;
+}
+
+.navi ul{
+  list-style-type: none;
+  margin: 0px;
+}
+.navi li{
+  padding: 10px;
+  float: left;
+  list-style: none;
+  margin:0px 50px 0px 50px 
+  
+}
+h2{
+  background-color: honeydew;
+  text-align: center;
+  font-size: 28px;
+
+}
+#a{
+  clear: both;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+
+#me{
+  clear: both;
+  display: flex;
+  background-color: aliceblue;
+  margin-top: 0px;
+}
+#me img{
+  border: 2px solid yellow;
+  border-radius: 50%;
+  margin: 20px;
+}
+#me ul{
+  margin-left: 40px;
+  letter-spacing: 5px;
+  line-height: 80px;
+  font-size: 22px;
+}
+#su{
+  background-color: antiquewhite;
+}
+#su p{
+  line-height: 2em;
+}
+/* skills */
+.skills {
+  background-color: azure;
+}
+.hoge{
+  display: flex;
+ justify-content: space-between;
+}
+.foo{
+  text-align: center;
+}
+.foo p{
+  font-size: 14px;
+}
+.skills img{
+  width: 170px;
+  height: 150px;
+  border: 3px solid black;
+}
+
+/* works */
+.works{
+  background-color: beige;
+  clear: both;
+}
+.work{
+  display: flex;
+  justify-content: space-around;
+}
+.works img{
+  border: 2px solid skyblue;
+  border-radius: 50%;
+  width: 300px;
+  height: 250px;
+}
+#ss{
+  text-align: center;
+}
+
+
+/* Hobbis */
+#d{
+  margin-bottom: 0px;
+}
+.Hobby{
+}
+.Hobby ul{
+  list-style-type: none;
+  margin: 0;
+}
+.Hobby li{
+  padding: 10px;
+  float: left;
+  list-style: none;
+  margin: 30px 30px 30px 30px;
+  font-size: 22px;
+  text-shadow: 1px 2px 3px #808080;
+}
+
+
+footer{
+
+}
+footer ul{
+ list-style-type: none;
+}
+footer li{
+  padding: 10px;
+  float: left;
+  list-style: none;
+  margin: 30px 30px 30px 30px;
+}
